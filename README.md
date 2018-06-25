@@ -15,12 +15,16 @@ Services Provided:
 
 1) Add User
 
-  End point: http://localhost:8080/user-service/webapi/service/addUser/
-  Type: POST
-  Headers:
+    a) End point: http://localhost:8080/user-service/webapi/service/addUser/
+    
+    b) Type: POST
+    
+    c) Headers:
+    
           Accept:application/json
           Content-Type:application/json
-  Request:
+  
+    d) Request:
           
            {
               "firstName":"Raghav",
@@ -45,12 +49,15 @@ Services Provided:
   
   2) Update User
   
-       End point: http://localhost:8080/user-service/webapi/service/updateUser/
-       Type: PUT
-       Headers:
+        a) End point: http://localhost:8080/user-service/webapi/service/updateUser/
+        
+        b) Type: PUT
+        
+        c) Headers:
           Accept:application/json
           Content-Type:application/json
-       Request:
+       
+       d) Request:
               
               {
                   "firstName":"zc",
@@ -75,18 +82,22 @@ Services Provided:
  
  3) GET User
   
-       End point: http://localhost:8080/user-service/webapi/service/getUser/raghav@gmail.com
-       Type: GET
-       Headers:
+        a) End point: http://localhost:8080/user-service/webapi/service/getUser/raghav@gmail.com
+        
+        b) Type: GET
+        
+        c) Headers:
           Accept:application/json
           Content-Type:application/json
           
                     
  4) Delete User
   
-       End point: http://localhost:8080/user-service/webapi/service/deleteUser/anwesh@gmail.com
-       Type: DELETE
-       Headers:
+        a) End point: http://localhost:8080/user-service/webapi/service/deleteUser/anwesh@gmail.com
+       
+        b) Type: DELETE
+        
+        c) Headers:
           Accept:application/json
           Content-Type:application/json
        
