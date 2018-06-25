@@ -100,4 +100,9 @@ Services Provided:
         c) Headers:
           Accept:application/json
           Content-Type:application/json
-       
+ 
+ POSTMAN collection link:
+ 
+ https://www.getpostman.com/collections/41375a1f9f527a3a7380
+ 
+ 
