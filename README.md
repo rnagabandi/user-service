@@ -5,11 +5,11 @@ Table of content
 
 Installation:
   
-  Install JAVA , Maven and Tomcat
+    1) Install JAVA , Maven and Tomcat
   
-  Clone the project
+    2) Clone the project
   
-  run 'mvn clean install' command to generate the WAR file
+    3) run 'mvn clean install' command to generate the WAR file
   
 Services Provided:
 
