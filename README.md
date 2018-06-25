@@ -6,7 +6,9 @@ Table of content
 Installation:
   
   Install JAVA , Maven and Tomcat
+  
   Clone the project
+  
   run 'mvn clean install' command to generate the WAR file
   
 Services Provided:
@@ -78,6 +80,7 @@ Services Provided:
        Headers:
           Accept:application/json
           Content-Type:application/json
+          
                     
  4) Delete User
   
