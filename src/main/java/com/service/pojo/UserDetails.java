@@ -1,11 +1,13 @@
 package com.service.pojo;
 
+import java.util.ArrayList;
+
 public class UserDetails {
 
 	private String firstName;
 	private String lastName;
 	private String email;
-	private Address[] address;
+	private ArrayList<Address> address;
 
 	public String getFirstName() {
 		return firstName;
@@ -31,11 +33,11 @@ public class UserDetails {
 		this.email = email;
 	}
 
-	public Address[] getAddress() {
+	public ArrayList<Address> getAddress() {
 		return address;
 	}
 
-	public void setAddress(Address[] address) {
+	public void setAddress(ArrayList<Address> address) {
 		this.address = address;
 	}
 

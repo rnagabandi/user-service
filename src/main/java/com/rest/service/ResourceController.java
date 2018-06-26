@@ -17,6 +17,10 @@ import com.google.gson.Gson;
 import com.service.database.DatabaseManager;
 import com.service.pojo.UserDetails;
 
+/**
+ * @author raghavender.n
+ *
+ */
 @Path("service")
 public class ResourceController {
 
@@ -60,7 +64,6 @@ public class ResourceController {
 	public Response getUserDetails(@PathParam("userEmail") String userEmail)
 			throws SQLException {
 
-		final Gson gson = new Gson();
 		DatabaseManager databaseManager = new DatabaseManager();
 		UserDetails user = databaseManager.getUser(userEmail);
 
@@ -85,8 +88,7 @@ public class ResourceController {
 		if (status) {
 			return Response
 					.ok()
-					.entity(gson
-							.toJson("User details updated successfully!!!"))
+					.entity(gson.toJson("User details updated successfully!!!"))
 					.build();
 		} else {
 			return Response.ok().entity(gson.toJson("Updation failed!!!!"))
@@ -114,8 +116,7 @@ public class ResourceController {
 		if (status) {
 			return Response
 					.ok()
-					.entity(gson
-							.toJson("User details deleted successfully!!!"))
+					.entity(gson.toJson("User details deleted successfully!!!"))
 					.build();
 		} else {
 			return Response.ok().entity(gson.toJson("Deletion failed!!!!"))
